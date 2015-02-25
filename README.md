@@ -52,13 +52,7 @@ git clone https://github.com/kshamiev/testAppGo.git projectName
 	
 Настриваем конфигурацию src/config/config.go:<br>
 
-### Development & Run
-Производим необходимкю нам работу над проектом.
-
-IDE:
-
-- Eclipse
-- LiteIde
+### Run
 
 Собираем наш проект (переменная GOPATH должна быть установлена)
 
@@ -71,6 +65,8 @@ IDE:
 ###### build (этот способ не требует переменной GOBIN)
 находясь в папке src проекта (репозитория):
 `go build -o ../bin/application[.exe]`
+
+---
 
 Получаем исполняемый бинарный файл. Переходим в папку `bim` и запускаем его.
 
